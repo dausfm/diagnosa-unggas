@@ -1,6 +1,6 @@
 <?php 
 
-$konek = mysqli_connect('remotemysql.com:3306','R1z0LZ7gwW',' jz8jxr1uiv');
+$konek = mysqli_connect('remotemysql.com:3306','R1z0LZ7gwW',' jz8jxr1uiv','R1z0LZ7gwW');
 
 function query($query){
 	global $konek;
