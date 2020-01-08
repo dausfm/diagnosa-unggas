@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	
+	background-size: cover;
+}
+.container{
+	width: 500px;
+	height: 100%;
+	background-color: aqua;
+	opacity: 0.9;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.kepala{
+	/*background-image: url(../img/burung.jpg);*/
+	background-color: #eee;
+	background-size: cover;
+	padding: 5px;
+	margin: 5px;
+}
+.kepala img{
+	width: 150px;
+	text-align: center;
+	margin: 15px;
+	transition: 1s;
+}
+.kepala img:hover{
+	transform: rotate(360deg);
+    border-radius: 50%;
+}
+h1{
+	text-align: center;
+}
+.login {
+	padding: 20px;
+	width: 400px;
+	
+}
+.login hr{
+	width: 200px;
+	border : 2px solid #666;
+}
+.daftar{
+	margin:10px; 
+}
+.daftar table{
+	width: 350px;	
+}
+.daftar tr td{
+	padding:10px;    
+  }
+a{
+	text-decoration: none;
+	color: white;
+
+}
+a:hover{
+    text-decoration: none;
+}
+.kaki{
+	background-color: #eee;
+	padding: 2px 0px;
+	margin-top: 10px;
+}
